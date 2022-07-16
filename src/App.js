@@ -95,7 +95,7 @@ const addUser=()=>{
         What's up? 🥰<br/> <br/><button className="p-2 rounded w-60 bg-blue-500" onClick={()=> addUser()}>Change name</button>
       <br/><br/>
       <div className="flex justify-center">
-      <input className="p-3 w-48 h-12 outline-0 bg-slate-100" placeholder="Task to add?"  type="text" onChange={(e)=>setNew(e.target.value)} value={New}/>
+      <input className="p-3 w-48 h-12 outline-0" placeholder="Task to add?"  type="text" onChange={(e)=>setNew(e.target.value)} value={New}/>
 
       <button className="bg-blue-500 p-3 text-center w-12 h-12" onClick={events}>+</button>
       
